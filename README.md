@@ -20,6 +20,12 @@ python eap_identity_extractor.py -f <your_pcap_file.pcap>
 ## Example:
 ```console
 python eap_identity_extractor.py -f sample.pcap
+
+Extracted EAP Identities:
+velvetech\john
+velvetech\sarah
+velvetech\kevin
+velvetech\ralph
 ```
 
 ## Prerequisites
