@@ -9,24 +9,24 @@ EAP Identity Extractor is a Python script that parses a PCAP file to extract and
 
 ## Usage
 To run the script, simply use:
-'''
+```console
 python eap_identity_extractor.py -f <your_pcap_file.pcap>
-'''
+```
 
 ## Arguments:
 * -f, --file: Path to the input PCAP file to analyze.
 * -h, --help: Displays usage information and options.
 
 ## Example:
-'''
+```console
 python eap_identity_extractor.py -f sample.pcap
-'''
+```
 
 ## Prerequisites
 You'll need Python and the pyshark library. To install the dependencies:
-'''
+```console
 pip install pyshark
-'''
+```
 ## Error Handling
 If the file does not exist or is not a valid PCAP file, the script will print an error message and gracefully exit.
 Handles exceptions during packet processing and ensures the program terminates without crashing.
